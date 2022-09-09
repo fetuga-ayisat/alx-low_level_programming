@@ -4,7 +4,7 @@
 
 int main(void)
 {
-/* 
+/*
 * assign a random number to the variable
 * it will be executed
 * check whether the number is stored in positive or negative
