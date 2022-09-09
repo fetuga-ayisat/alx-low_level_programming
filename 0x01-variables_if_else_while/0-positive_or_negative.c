@@ -1,17 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-* assign a random number to the variable
-* it will be executed
-* check whether the number is stored in positive or negative
-*/
 
-/*main - function goes here*/
+/**
+* main-is the main function.
+*
+* Return: always returns 0 or 1
+*/
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
