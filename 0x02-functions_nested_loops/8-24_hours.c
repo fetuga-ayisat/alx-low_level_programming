@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * jack_bauer - Prints time
+ * jack_baver - Prints time
  * 
  * Description: Prints a list of time
  * Return: Always 0.
  */
 
-void jack_bauer(void)
+void jack_baver(void)
 {
 	int hour, minute;
 
