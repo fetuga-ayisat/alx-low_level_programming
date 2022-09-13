@@ -13,6 +13,6 @@ int _abs(int n)
 	}
 	else
 	{
-		retuen (-n);
+		return (-n);
 	}
 }
