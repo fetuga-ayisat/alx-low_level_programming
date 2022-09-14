@@ -3,7 +3,6 @@
 /**
  * main - sums multiplies of 3 or 5
  *
- *
  * Description: multiplies between 0 and 1024
  * Return: Always(0) Success
  */
