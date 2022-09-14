@@ -2,12 +2,11 @@
 
 /**
  * jack_baver - Prints time
- * 
  * Description: Prints a list of time
  * Return: Always 0.
  */
 
-void jack_baver(void)
+void jack_bauer(void)
 {
 	int i, j;
 
