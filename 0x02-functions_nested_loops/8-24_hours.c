@@ -7,20 +7,19 @@
  * Return: Always 0.
  */
 
-void Jack_Bauer(void)
+void jack_bauer(void)
 {
-	int hour, minute;
+	int i, j;
 
-	for (hour = 0; hour <= 23; hour++)
+	for (i = 0; i < 24; i++)
 	{
-		for (minute = 0; minute <= 59; minute++)
+		for (j = 0; j < 60; j++)
 		{
-
-			_putchar((hour / 10) + 0);
-			_putchar((hour % 10) + 0);
+			_putchar(i / 10) + 48);
+			_putchar(i % 10 + 48);
 			_putchar(':');
-			_putchar((minute / 10) + 0);
-			_putchar((minute % 10) + 0);
+			_putchar(j / 10 + 48);
+			_putchar(J % 10 + 48);
 			_putchar('\n');
 		}
 	}
