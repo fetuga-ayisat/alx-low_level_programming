@@ -1,4 +1,5 @@
 #include <stdlib.h>
+
 /**
  * _strlen - compute length of a string
  * @s: string to computre length of a string
@@ -6,13 +7,11 @@
  */
 unsigned int _strlen(char *s)
 {
-	unsigned int len = 0;
-
+	unsigned int len = 0;	
 	while (*s++)
 		len++;
 	return (len);
 }
-
 /**
  * string_nconcat - allocate memory for string concat
  * @s1: string to concat with s2
