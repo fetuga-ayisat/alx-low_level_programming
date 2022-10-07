@@ -10,8 +10,10 @@ void _puts(char *str)
 	int i = 0;
 	while (str[i])
 	{
-		_putchar(str[i]);i++;
+		_putchar(str[i]);
+		i++;
 	}
+
 }
 /**
  * _atoi - convert a string to an integer.
@@ -31,13 +33,13 @@ int _atoi(const char *s)
 			sign *= -1;
 		}
 	}
-	
+
 	for (i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
 	}
-	
+
 	return (sign * resp);
 }
 /**
@@ -51,7 +53,8 @@ void print_int(unsigned long int n)
 
 	unsigned  long int divisor = 1, i, resp;
 
-	for (i = 0; n / divisor > 9; i++, divisor *= 10);
+	for (i = 0; n / divisor > 9; i++, divisor *= 10)
+	;
 	for (; divisor >= 1; n %= divisor, divisor /= 10)
 	{
 		resp = n / divisor;
@@ -70,13 +73,13 @@ void print_int(unsigned long int n)
 int main(int argc, char const *argv[])
 {
 	(void)argc;
-	
+
 	if (argc != 3)
 	{
 		_puts("Error ");
 		exit(98);
 	}
-	print_int(_atoi(argv[1])* _atoi(argv[2])):
+	print_int(_atoi(argv[1]) * _atoi(argv[2]));
 		_putchar('\n');
 
 	return (0);
