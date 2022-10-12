@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * main - check the code for Holberton School students.
  * @argc: argument count.
  * @argv: argument vector.
@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	char *opc = (char *) main;
 	int i, nbytes;
+	
 	if (argc != 2)
 	{
 		printf("Error\n");
